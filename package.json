@@ -2,5 +2,15 @@
   "name": "graphql",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/knex": "^0.16.1",
+    "express": "4.17.1",
+    "express-graphql": "0.12.0",
+    "graphql": "15.5.0",
+    "graphql-tools": "7.0.4",
+    "knex": "^0.95.2",
+    "knex-cli": "^1.0.2",
+    "pg": "8.5.1"
+  }
 }
